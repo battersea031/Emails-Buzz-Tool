@@ -1134,6 +1134,7 @@ p{
 
     .bg-primary {
         position: relative;
+        background: transparent !important;
         }
     .toc-body ul li ul li {
     position: relative;
@@ -1301,10 +1302,11 @@ p{
     .form-p textarea {
     width: 100%;
     }
-    aside {
+    /* aside:not(#block-24,#block-25){
     position: sticky;
     top: 85px;
-    }
+    } */
+
     .form-left-content-flex {
     flex-direction: column;
     gap: 10px;
@@ -1720,3 +1722,10 @@ p{
     right: 4%;
     }
     }
+/* ============== cutome css  */
+.footer-links-flex {
+    margin-top: 20px;
+}
+.copyright {
+    padding: 0px !important;
+}

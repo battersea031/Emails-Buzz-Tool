@@ -514,3 +514,20 @@
     text-align: center;
     }
     }
+
+    /* ==================== custom css ============================= */
+
+    .footer-content ul {
+        padding-left: 0px;
+    }
+    .list-unstyled {
+        padding-top: 0px;
+    }
+    .sub-seperator span {
+        margin-bottom: 7px;
+    }
+    a.sw_app_title {
+        color: #000;
+        font-weight: 800;
+        font-size: 1.4rem;
+    }
